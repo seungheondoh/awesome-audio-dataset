@@ -7,18 +7,45 @@
     - download : [MTAT](https://mirg.city.ac.uk/codeapps/the-magnatagatune-dataset)
     - sampleCNN split: [Sample-level Deep Convolutional Neural Networks for Music Auto-tagging using Raw Waveforms](https://github.com/jongpillee/music_dataset_split)
     - EvalCNN split: [Evaluation of CNN-based Automatic Music Tagging Models](https://github.com/minzwon/sota-music-tagging-models/tree/master/split)
+```
+# sampleCNN split
+guitar, classical, slow, techno, strings, drums, electronic
+rock, fast, piano, ambient, beat, violin, vocal, synth, female
+indian, opera, male, singing, vocals, noVocals, harpsichord, loud, quiet
+flute, woman, maleVocal, noVocal, pop, soft, sitar, solo, man, classic
+choir, voice, newAge, dance, maleVoice, femaleVocal, beats, harp, cello,
+noVoice, weird, country, femaleVoice, metal, choral
+```
 
-- MSD (Allmusic Tag, Last.fm Tag)
+- MSD
     - download : not available
     - sampleCNN split: [Sample-level Deep Convolutional Neural Networks for Music Auto-tagging using Raw Waveforms](https://github.com/jongpillee/music_dataset_split)
     - EvalCNN split: [Evaluation of CNN-based Automatic Music Tagging Models](https://github.com/minzwon/sota-music-tagging-models/tree/master/split)
-
+    - Last.fm Tag: 
+    - Allmusic Tag: 
+```
+# sampleCNN split
+rock, pop, alternative, indie, electronic, female vocalists, dance, 00s, alternative rock,
+jazz, beautiful, metal, chillout, male vocalists, classic rock, soul, indie rock, Mellow, electronica,
+80s, folk, 90s, chill, instrumental, punk, oldies, blues, hard rock, ambient, acoustic, experimental, 
+female vocalist, guitar, Hip-Hop, 70s, party, country, easy listening, sexy, catchy, funk, electro
+heavy metal, Progressive rock, 60s, rnb, indie pop, sad, House, happy
+```
 - Music4all
     - download : [music4all](https://sites.google.com/view/contact4music4all)
-
+```
+- id: Unique 16 characters identifier for the song in the database.  
+- artist: Name of the artist that published the song in last.fm. There are 16,269 unique artists in the database. 
+- song: Name of the song.
+- tags: User-given tags from the last.fm application, with 19,541 unique tags.  
+- genres: List of genres tags associated with the song. There are 853 unique genre tags in the database.
+```
 - Jamendo
     - download : [jamendo](https://github.com/MTG/mtg-jamendo-dataset)
     - EvalCNN split: [Evaluation of CNN-based Automatic Music Tagging Models](https://github.com/minzwon/sota-music-tagging-models/tree/master/split)
+```
+alternative, ambient, atmospheric, chillout, classical, dance, downtempo, easylistening, electronic, experimental, folk, funk, hiphop, house, indie, instrumentalpop, jazz, lounge, metal, newage, orchestral, pop, popfolk, poprock, reggae, rock, soundtrack, techno, trance, triphop, world, acousticguitar, bass, computer, drummachine, drums, electricguitar, electricpiano, guitar, keyboard, piano, strings, synthesizer, violin, voice, emotional, energetic, film, happy, relaxing
+```
 
 ### Env
 - TAU Urban Acoustic Scenes 2020
@@ -69,5 +96,5 @@ Urban park - park
 - Music with Album Cover(Image) : MuMu Dataset (With MSD)
 - Env with Media(Video) : YoutubeSet
 
-### with playlist
+## with playlist
 - Musicwith Music4all
