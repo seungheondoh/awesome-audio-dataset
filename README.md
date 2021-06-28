@@ -2,9 +2,9 @@
 
 ## audio modality
 
-### Music with tag
+### Music
 - MTAT
-    - download : [MTAT](https://mirg.city.ac.uk/codeapps/the-magnatagatune-dataset)
+    - [download](https://mirg.city.ac.uk/codeapps/the-magnatagatune-dataset)
     - sampleCNN split: [Sample-level Deep Convolutional Neural Networks for Music Auto-tagging using Raw Waveforms](https://github.com/jongpillee/music_dataset_split)
     - EvalCNN split: [Evaluation of CNN-based Automatic Music Tagging Models](https://github.com/minzwon/sota-music-tagging-models/tree/master/split)
 ```
@@ -18,11 +18,11 @@ noVoice, weird, country, femaleVoice, metal, choral
 ```
 
 - MSD
-    - download : not available
+    - [download] : not available
     - sampleCNN split: [Sample-level Deep Convolutional Neural Networks for Music Auto-tagging using Raw Waveforms](https://github.com/jongpillee/music_dataset_split)
     - EvalCNN split: [Evaluation of CNN-based Automatic Music Tagging Models](https://github.com/minzwon/sota-music-tagging-models/tree/master/split)
-    - Last.fm Tag: 
-    - Allmusic Tag: 
+    - Last.fm Tag
+    - Allmusic Tag
 ```
 # sampleCNN split
 rock, pop, alternative, indie, electronic, female vocalists, dance, 00s, alternative rock,
@@ -32,7 +32,7 @@ female vocalist, guitar, Hip-Hop, 70s, party, country, easy listening, sexy, cat
 heavy metal, Progressive rock, 60s, rnb, indie pop, sad, House, happy
 ```
 - Music4all
-    - download : [music4all](https://sites.google.com/view/contact4music4all)
+    - [download](https://sites.google.com/view/contact4music4all)
 ```
 - id: Unique 16 characters identifier for the song in the database.  
 - artist: Name of the artist that published the song in last.fm. There are 16,269 unique artists in the database. 
@@ -41,16 +41,21 @@ heavy metal, Progressive rock, 60s, rnb, indie pop, sad, House, happy
 - genres: List of genres tags associated with the song. There are 853 unique genre tags in the database.
 ```
 - Jamendo
-    - download : [jamendo](https://github.com/MTG/mtg-jamendo-dataset)
+    - [download](https://github.com/MTG/mtg-jamendo-dataset)
     - EvalCNN split: [Evaluation of CNN-based Automatic Music Tagging Models](https://github.com/minzwon/sota-music-tagging-models/tree/master/split)
 ```
-alternative, ambient, atmospheric, chillout, classical, dance, downtempo, easylistening, electronic, experimental, folk, funk, hiphop, house, indie, instrumentalpop, jazz, lounge, metal, newage, orchestral, pop, popfolk, poprock, reggae, rock, soundtrack, techno, trance, triphop, world, acousticguitar, bass, computer, drummachine, drums, electricguitar, electricpiano, guitar, keyboard, piano, strings, synthesizer, violin, voice, emotional, energetic, film, happy, relaxing
+alternative, ambient, atmospheric, chillout, classical, dance, downtempo, 
+easylistening, electronic, experimental, folk, funk, hiphop, house, indie, instrumentalpop, 
+jazz, lounge, metal, newage, orchestral, pop, popfolk, poprock, reggae, rock, soundtrack, 
+techno, trance, triphop, world, acousticguitar, bass, computer, drummachine, drums, 
+electricguitar, electricpiano, guitar, keyboard, piano, strings, synthesizer, 
+violin, voice, emotional, energetic, film, happy, relaxing
 ```
 
 ### Env
 - TAU Urban Acoustic Scenes 2020
-    - Development download : [music4all](https://zenodo.org/record/3819968)
-    - Evaluation download : [music4all](https://zenodo.org/record/4767109#.YNnz6JMzaZw)
+    - Development [download](https://zenodo.org/record/3819968)
+    - Evaluation [download](https://zenodo.org/record/4767109#.YNnz6JMzaZw)
 ```
 Airport - airport
 Indoor shopping mall - shopping_mall
@@ -64,7 +69,7 @@ Travelling by an underground metro - metro
 Urban park - park
 ```
 - Clotho
-    - download : [Clotho](https://zenodo.org/record/4783391)
+    - [download](https://zenodo.org/record/4783391)
 ```
 6974 audio samples
 34870 captions(each audio sample has five captions))
@@ -77,15 +82,15 @@ Urban park - park
 
 ### Sound Scape & Sound Effect
 - EMO SoundScape
-    - download : [emo-soundscape](https://metacreation.net/emo-soundscapes/)
+    - [download](https://metacreation.net/emo-soundscapes/)
 
 ### Speech
 - COMMONVOICE
-    - download : [commonvoice](https://commonvoice.mozilla.org/en/datasets)
+    - [download](https://commonvoice.mozilla.org/en/datasets)
 - LibroSpeech
-    - download : [librospeech](https://www.openslr.org/12)
+    - [download](https://www.openslr.org/12)
 - LJSPEECH
-    - download : [ljspeech](https://keithito.com/LJ-Speech-Dataset/)
+    - [download](https://keithito.com/LJ-Speech-Dataset/)
 
 ## with langauge
 - Env with Caption : Clotho dataset
